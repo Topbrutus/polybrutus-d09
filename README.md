@@ -1,5 +1,14 @@
 # POLYBRUTUS 9D - exact conservative lifting and an exact oscillator spectrum
 
+## Official published release
+
+- **Zenodo DOI:** [10.5281/zenodo.24408448](https://doi.org/10.5281/zenodo.24408448); public record [24408448](https://zenodo.org/records/24408448).
+- **Frozen source tag:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d09/tree/v0.1.0), commit `3e435ea423e829d1b6cbc43fe8913e7338d4cb2c`.
+- **Verified CI:** GitHub Actions run [`44838016230`](https://github.com/Topbrutus/polybrutus-d09/actions/runs/44838016230), result `success`.
+- **Archived files:** tagged ZIP, mathematical preprint PDF, and JSON certificate with all 91 labelled squared distances.
+- **Scientific scope:** a particular, exact distance-geometry and ideal graph-spectrum computation; neither peer reviewed nor evidence of additional physical dimensions.
+
+
 **Author / research responsibility:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Status:** Exact computational distance-geometry certificate, not a newly discovered physical dimension. Human peer review: pending.  
 **AI disclosure:** OpenAI ChatGPT (Astra) assisted mathematics, source code, independent verification, documentation, and publication preparation, and is not an author.
