@@ -1,0 +1,22 @@
+name: Verify Polybrutus D09 certificate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install exact math dependency
+        run: python -m pip install sympy==1.14.0
+      - name: Exact D09 metric, Gram and oscillator spectrum
+        run: python src/verify_d09.py
+      - name: Independent rational D09 verifier
+        run: python tests/independent_d09.py
