@@ -3,7 +3,7 @@
   "dimension": 9,
   "repository": "Topbrutus/polybrutus-d09",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 14,
   "pairs": 91,
   "affine_rank": 9,
@@ -12,15 +12,53 @@
   "parent_doi": "10.5281/zenodo.24408344",
   "parent_github_tag": "Topbrutus/polybrutus-d08@v0.1.0",
   "parent_tag_commit": "356973b71ec14aa5881a8e26edd375efdb84f0af",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "3e435ea423e829d1b6cbc43fe8913e7338d4cb2c",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24408448,
+  "zenodo_doi": "10.5281/zenodo.24408448",
   "specific_mathematical_result": "Exact multiplicity transition in uniform-join weighted Laplacian: lambda 7 x3, lambda 13/2 x4, relative to D08.",
   "human_peer_review": "NOT_DONE",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted computation and drafting; not an author.",
   "validation": "Two independent checkers PASS on authorized workstation; GitHub CI not yet run.",
-  "next_action": "Commit candidate repo privately, enable CI, freeze tag, stage Zenodo, publish only after all integrity and relevance gates."
+  "next_action": "With next go, start D10 as a candidate by preserving D09 tagged 91 distances. Do not create D10 before that instruction.",
+  "github_visibility": "public_verified",
+  "github_ci": {
+    "workflow": "Verify Polybrutus D09 certificate",
+    "run_id": 44838016230,
+    "conclusion": "success",
+    "head_sha": "3e435ea423e829d1b6cbc43fe8913e7338d4cb2c"
+  },
+  "github_main_note": "DOI/CITATION/manifest and SHA256SUMS updated after frozen source tag; main may advance without altering tag",
+  "zenodo_public_verified": true,
+  "files": [
+    {
+      "name": "POLYBRUTUS_D09_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 135728,
+      "sha256": "737a37f14e285ffe9ec7e366d6e0ee8a96416c0e77fac6c974d18473a59861fd"
+    },
+    {
+      "name": "POLYBRUTUS_9D_NOTE.pdf",
+      "size": 148685,
+      "sha256": "c79150b3faf99dd94134f54539e301ad0c46437a0d05e03290b22cb4992a1f41"
+    },
+    {
+      "name": "certificate_d09.json",
+      "size": 8445,
+      "sha256": "2fb777d915e447f0068e2e6455003530183c0badb1f7ed78a2269b722e14b644"
+    }
+  ],
+  "scientific_validation": {
+    "exact_coordinate_rank": "PASS",
+    "centered_distance_gram_rank": "PASS",
+    "centered_gram_psd": "PASS",
+    "predecessor_distances": "78/78_PASS",
+    "pairwise_distances": "91/91_PASS",
+    "negative_controls": "4/4_PASS",
+    "independent_checker": "PASS",
+    "exact_oscillator_modes": "7: multiplicity 3; 13/2: multiplicity 4",
+    "github_actions": "PASS"
+  },
+  "publication_approval": "Topbrutus instructed that each future go starts a new dimension using the GitHub/Zenodo publication protocol; explicit go given for 9D"
 }
