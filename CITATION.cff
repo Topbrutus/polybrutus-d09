@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Cite the Zenodo record once independently released; until then cite the tagged public repository."
+message: "Cite the verified Zenodo Polybrutus 9D preprint DOI 10.5281/zenodo.24408448."
 title: "Polybrutus 9D: Exact Conservative Lifting and a Spectral Multiplicity Transition"
 authors:
   - family-names: "St-Pierre"
     given-names: "Gabriel"
     orcid: "https://orcid.org/0009-0009-9297-2336"
 version: "0.1.0"
+doi: 10.5281/zenodo.24408448
 date-released: "2026-11-20"
 url: "https://github.com/Topbrutus/polybrutus-d09"
 license: MIT
